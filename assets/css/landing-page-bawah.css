@@ -1,0 +1,180 @@
+/*FAQ CSS*/
+.FAQtitle {
+    padding: 20px 20px 8px 20px;
+}
+
+.gradient {
+    background: -webkit-linear-gradient(right, #FDD44B, #F13E86, #F3619C, #F89BC0, #c64aff, #7474FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.FAQ {
+    margin-left: 85px;
+    margin-right: 124px;
+}
+
+.quegroup h4 {
+    font-size: 34px;
+}
+
+.quegroup p {
+    font-size: 16px;
+}
+
+.que {
+    margin-left: 50%;
+    width: 631px;
+    height: 200px;
+    left: 600px;
+    top: 0px;
+    flex-direction: column;
+    display: grid;
+    grid-column-gap: 100px;
+}
+
+.quegroup {
+    margin-top: 34px;
+}
+
+.que-right {
+    margin-top: 10px;
+    /**/
+    border: 8px solid #7D04F0;
+    /**/
+    align-self: flex-start;
+    padding: 15px;
+    background-color: var(--base);
+    display: flex;
+}
+
+/* Maaf masih otw mahamin before after hehe */
+.que-right::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    width: 50%;
+    height: 50%;
+    filter: blur(30px);
+    background: linear-gradient(to bottom left, #FDD44B, #F13E86, #F3619C, #F89BC0, #c64aff71, #7474FF);
+}
+
+.ques-right::after {
+    content: '';
+    position: absolute;
+    top: 266px;
+    bottom: 185px;
+    right: 117px;
+    left: 442px;
+    z-index: -1;
+    background: linear-gradient(to bottom left, #FDD44B, #F13E86, #F3619C, #F89BC0, #c64aff, #7474FF);
+}
+/* Maaf masih otw mahamin before after hehe */
+
+.que-left {
+    margin-top: 10px;
+    border: 8px solid #FDD44B;
+    align-self: flex-start;
+    padding: 15px;
+    background-color: var(--base);
+}
+
+.ques-right {
+    margin-left: 50%;
+    grid-template-columns: 4fr 4fr;
+    text-align: end;
+}
+
+.ques-left {
+    margin-top: -52px;
+    margin-right: 50%;
+    grid-template-columns: 4fr 4fr;
+    text-align: start;
+}
+
+.showbox {
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 200px;
+    height: 50px;
+    border: 3px solid;
+    border-color: #FDD44B;
+    padding: 5px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* FAQ CSS End*/
+
+/* Timeline CSS */
+.square {
+    grid-template-columns: 10fr 12fr;
+}
+
+.square .timeline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.timeline h2{
+    padding-left: 10px; ;
+}
+
+.tl-line img {
+    height: 100%;
+}
+
+.tl-line-container {
+    padding: 0px 100px;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tl-line {
+    margin-top: -70px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 4fr 3fr 4fr;
+    gap: 70px;
+}
+
+.tl-line.right {
+    align-self: flex-start;
+}
+
+.tl-line.left {
+    align-self: flex-end;
+}
+
+.tl-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tl-desc.right {
+    align-items: flex-start;
+}
+
+.tl-desc.left {
+    align-items: flex-end;
+}
+/* Timeline CSS End */
+
+/*Box Sponsor dan Medpar CSS*/
+.bintang img{
+    width: 100%;
+}
+
+.title h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0px;
+}
+/*Box Sponsor dan Medpar CSS End*/
